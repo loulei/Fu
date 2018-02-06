@@ -50,7 +50,7 @@ public class TrackerService extends BaseAccessibilityService {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-    			AccessibilityNodeInfo nodeInfo = findViewByText2("再来一次");
+    			AccessibilityNodeInfo nodeInfo = findViewByText2("再试一次");
     			if(nodeInfo != null){
     				performViewClick(nodeInfo);
     			}else{
@@ -73,7 +73,7 @@ public class TrackerService extends BaseAccessibilityService {
 		@Override
 		public void run() {
 			// TODO Auto-generated method stub
-			AccessibilityNodeInfo nodeInfo = findViewByText2("点击重试");
+			AccessibilityNodeInfo nodeInfo = findViewByText2("再试一次");
 			if(nodeInfo != null){
 				performViewClick(nodeInfo);
 			}else{

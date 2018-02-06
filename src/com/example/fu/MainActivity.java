@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		
 		
-		
+		AccessibilityUtil.checkAccessibility(getApplicationContext());
 		btn_start = (Button) findViewById(R.id.btn_start);
 		btn_stop = (Button) findViewById(R.id.btn_stop);
 		
